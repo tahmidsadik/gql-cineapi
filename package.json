@@ -7,11 +7,23 @@
   "author": "Tahmid Sadik",
   "license": "MIT",
   "private": false,
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
   "dependencies": {
+    "@zeit/next-stylus": "^1.0.1",
     "apollo-datasource": "^0.2.1",
     "apollo-datasource-rest": "^0.2.1",
     "apollo-server": "^2.2.6",
+    "date-fns": "^1.29.0",
     "graphql": "^14.0.2",
-    "nodemon": "^1.18.7"
+    "isomorphic-unfetch": "^3.0.0",
+    "next": "^7.0.2",
+    "nodemon": "^1.18.7",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "stylus": "^0.54.5"
   }
 }
