@@ -13,6 +13,7 @@
     "start": "next start -p 8000"
   },
   "dependencies": {
+    "@now/next": "^0.0.81",
     "@zeit/next-css": "^1.0.1",
     "@zeit/next-stylus": "^1.0.1",
     "apollo-datasource": "^0.2.1",
